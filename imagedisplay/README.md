@@ -1,16 +1,15 @@
-# imagedisplay
+# ImageDisplay
 
-A new Flutter project.
+## Screenshots
 
-## image app
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/fc5bdda6-0738-44f0-908f-c881f0a7ea32" alt="iPhone Screenshot" width="300"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/108b1937-91a1-4094-a593-f94edd37d965" alt="Android Screenshot" width="300"/>
+    </td>
+  </tr>
+</table>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
