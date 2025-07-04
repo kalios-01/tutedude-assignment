@@ -1,0 +1,221 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kaliostech.pomotimer"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <!-- Add permissions for background operation -->
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:3:5-80
+17-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:3:22-78
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:4:5-67
+18-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:4:22-65
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:5:5-76
+19-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:5:22-74
+20    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+20-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:6:5-76
+20-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:6:22-74
+21    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+21-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:7:5-78
+21-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:7:22-76
+22    <uses-permission android:name="android.permission.USE_EXACT_ALARM" /> <!-- Permissions for file access -->
+22-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:8:5-73
+22-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:8:22-71
+23    <uses-permission
+23-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:10:5-107
+24        android:name="android.permission.READ_EXTERNAL_STORAGE"
+24-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:10:22-77
+25        android:maxSdkVersion="32" />
+25-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:10:78-104
+26    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+26-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:11:5-75
+26-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:11:22-72
+27    <!--
+28 Required to query activities that can process text, see:
+29         https://developer.android.com/training/package-visibility and
+30         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+31
+32         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+33    -->
+34    <queries>
+34-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:52:5-62:15
+35        <intent>
+35-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:53:9-56:18
+36            <action android:name="android.intent.action.PROCESS_TEXT" />
+36-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:54:13-72
+36-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:54:21-70
+37
+38            <data android:mimeType="text/plain" />
+38-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:55:13-50
+38-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:55:19-48
+39        </intent>
+40        <!-- Add audio file query support -->
+41        <intent>
+41-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:58:9-61:18
+42            <action android:name="android.intent.action.VIEW" />
+42-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:59:13-65
+42-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:59:21-62
+43
+44            <data android:mimeType="audio/*" />
+44-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:55:13-50
+44-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:55:19-48
+45        </intent>
+46        <intent>
+46-->[:file_picker] /Users/kalios31/Desktop/github_project/Pomotimer/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-12:18
+47            <action android:name="android.intent.action.GET_CONTENT" />
+47-->[:file_picker] /Users/kalios31/Desktop/github_project/Pomotimer/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-72
+47-->[:file_picker] /Users/kalios31/Desktop/github_project/Pomotimer/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:21-69
+48
+49            <data android:mimeType="*/*" />
+49-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:55:13-50
+49-->/Users/kalios31/Desktop/github_project/Pomotimer/android/app/src/main/AndroidManifest.xml:55:19-48
+50        </intent>
+51    </queries>
+52
+53    <uses-permission android:name="android.permission.VIBRATE" />
+53-->[:flutter_local_notifications] /Users/kalios31/Desktop/github_project/Pomotimer/build/flutter_local_notifications/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-66
+53-->[:flutter_local_notifications] /Users/kalios31/Desktop/github_project/Pomotimer/build/flutter_local_notifications/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-63
+54
+55    <permission
+55-->[androidx.core:core:1.13.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+56        android:name="com.kaliostech.pomotimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+56-->[androidx.core:core:1.13.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+57        android:protectionLevel="signature" />
+57-->[androidx.core:core:1.13.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+58
+59    <uses-permission android:name="com.kaliostech.pomotimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+59-->[androidx.core:core:1.13.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+59-->[androidx.core:core:1.13.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+60
+61    <application
+62        android:name="android.app.Application"
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.13.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+64        android:debuggable="true"
+65        android:extractNativeLibs="true"
+66        android:icon="@mipmap/launcher_icon"
+67        android:label="Pomo-Timer"
+68        android:requestLegacyExternalStorage="true" >
+69        <activity
+70            android:name="com.kaliostech.pomotimer.MainActivity"
+71            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+72            android:enableOnBackInvokedCallback="true"
+73            android:exported="true"
+74            android:hardwareAccelerated="true"
+75            android:launchMode="singleTop"
+76            android:taskAffinity=""
+77            android:theme="@style/LaunchTheme"
+78            android:windowSoftInputMode="adjustResize" >
+79
+80            <!--
+81                 Specifies an Android theme to apply to this Activity as soon as
+82                 the Android process has started. This theme is visible to the user
+83                 while the Flutter UI initializes. After that, this theme continues
+84                 to determine the Window background behind the Flutter UI.
+85            -->
+86            <meta-data
+87                android:name="io.flutter.embedding.android.NormalTheme"
+88                android:resource="@style/NormalTheme" />
+89
+90            <intent-filter>
+91                <action android:name="android.intent.action.MAIN" />
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+94            </intent-filter>
+95        </activity>
+96        <!--
+97             Don't delete the meta-data below.
+98             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+99        -->
+100        <meta-data
+101            android:name="flutterEmbedding"
+102            android:value="2" />
+103
+104        <uses-library
+104-->[androidx.window:window:1.2.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+105            android:name="androidx.window.extensions"
+105-->[androidx.window:window:1.2.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+106            android:required="false" />
+106-->[androidx.window:window:1.2.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+107        <uses-library
+107-->[androidx.window:window:1.2.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+108            android:name="androidx.window.sidecar"
+108-->[androidx.window:window:1.2.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+109            android:required="false" />
+109-->[androidx.window:window:1.2.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+110
+111        <provider
+111-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+113            android:authorities="com.kaliostech.pomotimer.androidx-startup"
+113-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+114            android:exported="false" >
+114-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+115            <meta-data
+115-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+116-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+117                android:value="androidx.startup" />
+117-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/kalios31/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+120                android:value="androidx.startup" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+121        </provider>
+122
+123        <receiver
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+124            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+125            android:directBootAware="false"
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+126            android:enabled="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+127            android:exported="true"
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+128            android:permission="android.permission.DUMP" >
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+130                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+133                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+134            </intent-filter>
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+136                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+137            </intent-filter>
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+139                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/kalios31/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+140            </intent-filter>
+141        </receiver>
+142    </application>
+143
+144</manifest>

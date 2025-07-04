@@ -1,0 +1,38 @@
+<variant
+    name="release"
+    package="com.kaliostech.pomotimer"
+    minSdkVersion="21"
+    targetSdkVersion="35"
+    shrinking="true"
+    mergedManifest="/Users/kalios31/Desktop/github_project/Pomotimer/build/app/intermediates/merged_manifest/release/processReleaseMainManifest/AndroidManifest.xml"
+    proguardFiles="/Users/kalios31/Desktop/github_project/Pomotimer/build/app/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.7.0:/Volumes/Pro/FlutterDev/sdk/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/kalios31/Desktop/github_project/Pomotimer/build/app/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+    desugaredMethodsFiles="/Users/kalios31/.gradle/caches/8.10.2/transforms/27fac34a24ed7e7f2dc30126ca5f9710/transformed/desugar_jdk_libs_configuration-2.1.4-desugar-lint.txt:/Users/kalios31/.gradle/caches/8.10.2/transforms/65d45a84d532f6a2a72e05ff1d669022/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      coreLibraryDesugaring="true"
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <artifact
+      classOutputs="/Users/kalios31/Desktop/github_project/Pomotimer/build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/kalios31/Desktop/github_project/Pomotimer/build/app/tmp/kotlin-classes/release:/Users/kalios31/Desktop/github_project/Pomotimer/build/app/kotlinToolingMetadata:/Users/kalios31/Desktop/github_project/Pomotimer/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/processReleaseResources/R.jar"
+      type="MAIN"
+      applicationId="com.kaliostech.pomotimer"
+      generatedSourceFolders="/Users/kalios31/Desktop/github_project/Pomotimer/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Users/kalios31/Desktop/github_project/Pomotimer/build/app/generated/res/resValues/release"
+      desugaredMethodsFiles="/Users/kalios31/.gradle/caches/8.10.2/transforms/27fac34a24ed7e7f2dc30126ca5f9710/transformed/desugar_jdk_libs_configuration-2.1.4-desugar-lint.txt:/Users/kalios31/.gradle/caches/8.10.2/transforms/65d45a84d532f6a2a72e05ff1d669022/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>
