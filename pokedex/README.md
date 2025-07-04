@@ -1,16 +1,34 @@
-# pokedex
+## Pokedex
 
-A new Flutter project.
+## 🚀 Features
 
-## Getting Started
+### 🔐 Firebase Authentication
+- Email/password **sign up** and **login**
+- Secure user session management
+- Profile screen with user info and sign-out option
 
-This project is a starting point for a Flutter application.
+### 📘 Pokémon Browsing
+- View all Pokémon in a responsive **scrollable grid**
+- Tap a card to view:
+  - Stats (with animations)
+  - Abilities
+  - Evolution chain
+- Type-based **color gradients** for immersive experience
 
-A few resources to get you started if this is your first Flutter project:
+### 🎯 Dex Tab (Filter & Search)
+- Filter Pokémon by **type** using interactive **Suggestion Chips**
+- **Smart search** (name prioritized over type)
+- Visually distinct and fast search UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📊 Pokémon Details Page
+- Large official Pokémon artwork
+- **Animated stat bars** and **type-based backgrounds**
+- Inline **evolution chain**
+- Elegant card-style layout
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Demo
+
+
+https://github.com/user-attachments/assets/9eddff69-1393-4fa8-aab2-0d20db9a8e02
+
